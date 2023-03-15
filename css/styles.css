@@ -105,7 +105,7 @@ button {
 }
 
 .page-header {
-    border-bottom: 1px solid --footer-color-text;
+    border-bottom: 1px solid var(--footer-color-text);
 }
 
 .header-container {
@@ -192,7 +192,7 @@ button {
     margin-right: auto;
     margin-left: auto;
     width: 496px;
-    height: 120;
+    height: 120px;
 
     font-weight: 700;
     font-size: 56px;
@@ -234,7 +234,7 @@ button {
 }
 
 .characteristic-list-item {
-    width: calc((100%-72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .characteristic-list-item:not(:last-child) {
